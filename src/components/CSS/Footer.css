@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    color: aliceblue;
+    justify-content: space-around;
+    padding-top: 40px;
+    line-height: 30px;
+    row-gap: 20px;
+    height: 440px;
+}
+
+.bottom{
+    display: flex;
+    margin-top: -40px;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.email{
+    background-color: black;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+}
