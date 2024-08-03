@@ -1,0 +1,64 @@
+.log-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 50%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: center;
+    padding: 0 136px;
+}
+
+.text-section {
+    margin-bottom: 40px;
+}
+
+.text-heading {
+    margin-bottom: 24px;
+}
+
+.right .login-section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+
+.right .login-section input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+}
+
+.right .login-section input:focus-visible {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #DB4444;
+}
+
+.btn-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-section .login-btn {
+    padding: 16px 48px;
+    border-radius: 4px;
+    background-color: #DB4444;
+    border: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.btn-section .pass-txt {
+    color: #DB4444;
+}
