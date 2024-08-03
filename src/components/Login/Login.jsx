@@ -20,7 +20,7 @@ function Login() {
                     <input type="password" name="password" id="password" placeholder='Password'/>
                 </div>
 
-                <div className="btn-section">
+                <div className="btn-log-section">
                     <button className='login-btn'>Log in</button>
                     <p className='pass-txt'>Forgot Password</p>
                 </div>
@@ -29,7 +29,7 @@ function Login() {
             </div>
         </div>
     </div>
-  )
+  );
 }
 
 export default Login

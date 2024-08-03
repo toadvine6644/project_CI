@@ -44,21 +44,35 @@
     border-bottom: 1px solid #DB4444;
 }
 
-.btn-log-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.btn-log-section .login-btn {
+.btn-sign-section .sign-btn {
+    width: 100%;
     padding: 16px 48px;
     border-radius: 4px;
     background-color: #DB4444;
     border: none;
     color: white;
     text-transform: capitalize;
+    margin-bottom: 16px;
 }
 
-.btn-log-section .pass-txt {
-    color: #DB4444;
+.btn-sign-section .sign-gg-btn {
+    width: 100%;
+    display: flex;
+    padding: 16px 86px;
+    border: 1px solid;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    margin-bottom: 32px;
+}
+
+.btn-sign-section .sign-gg-btn .gg-icon {
+    margin-right: 16px;
+}
+
+.btn-sign-section .signup-txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
