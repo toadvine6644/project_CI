@@ -11,6 +11,7 @@ function NavBar() {
                 <li><a href="/Contact"> Contact</a></li>
                 <li><a href="/About"> About</a></li>
                 <li><a href="/SignUp"> Sign up</a></li>
+                <li><a href="/LogIn">Log in</a></li>
             </ul>
             <ul className='rightMenu'>
                 <input type="text" className='searchBar' placeholder='What are you looking for'/>

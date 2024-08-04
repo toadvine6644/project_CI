@@ -50,3 +50,7 @@ ul li a{
 ul input {
     margin-right: 40px;
 }
+
+.left{
+    flex: .3 !important;
+}

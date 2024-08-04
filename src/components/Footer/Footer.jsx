@@ -4,6 +4,9 @@ import fbIcon from '../Assets/Images/fb-icon.svg'
 import xicon from '../Assets/Images/x-icon.svg'
 import instaicon from '../Assets/Images/insta-icon.svg'
 import linkkedin from '../Assets/Images/linkedin-icon.svg'
+import qrcode from '../Assets/Images/qrcode.svg'
+import android from '../Assets/Images/adr.svg'
+import ios from '../Assets/Images/ios.svg'
 
 
 function Footer() {
@@ -40,6 +43,11 @@ function Footer() {
             <div className='col5'>
                 <h4>Download</h4>
                 <div className='save'>Save $3 with App New User Only</div>
+                <div className='download'>
+                    <img className='qr' src={qrcode}></img>
+                    <img className='adr' src={android} alt="" />
+                    <img className='ios' src={ios} alt="" />
+                </div>
                 <div className='icons'>
                     <img className='icon' src={fbIcon} alt="" />
                     <img className='icon' src={xicon} alt="" />
