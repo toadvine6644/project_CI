@@ -1,0 +1,21 @@
+.hero-section-main-container {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-section-main {
+    display: flex;
+    margin-top: 30px;
+}
+
+.filterDiv {
+    height: 50vh;
+    width: 30%;
+    border-right: 1px solid black;
+}
+
+.sliderDiv {
+    height: 50vh;
+    width: 70%;
+}
+

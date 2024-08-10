@@ -5,7 +5,7 @@ function Header() {
   return (
     <>
         <div className='header'>
-            <header className='sale'>Summer Sale For All Swim Suits And Free Express Delvery - OFF 50%! <a href="">ShopNow</a></header>
+            <header className='sale'>Summer Sale For All Swim Suits And Free Express Delvery - OFF 50%! <a href='../App.jsx'>ShopNow</a></header>
         </div>
         <div className='language'>English</div>
     </>

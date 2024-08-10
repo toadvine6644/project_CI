@@ -44,9 +44,9 @@ function Footer() {
                 <h4>Download</h4>
                 <div className='save'>Save $3 with App New User Only</div>
                 <div className='download'>
-                    <img className='qr' src={qrcode}></img>
-                    <img className='adr' src={android} alt="" />
-                    <img className='ios' src={ios} alt="" />
+                    <img className='qr' alt='' src={qrcode}></img>
+                    <img className='adr' alt='' src={android} />
+                    <img className='ios' alt='' src={ios} />
                 </div>
                 <div className='icons'>
                     <img className='icon' src={fbIcon} alt="" />
