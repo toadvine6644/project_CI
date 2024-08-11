@@ -1,0 +1,11 @@
+.comps{
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.layout{
+    display: flex;
+    padding: 10px;
+    padding-left: 120px;
+}

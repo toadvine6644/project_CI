@@ -5,6 +5,7 @@ import Footer from './components/Footer/Footer';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
 import HeroSection from './components/HeroSection/HeroSection';
+import Home from './components/Home/Home';
 import {Routes, Route} from 'react-router-dom';
 
 function App() {
@@ -14,11 +15,12 @@ function App() {
       <Header />
       <NavBar />
         <Routes>
-          <Route path='/'></Route>
-          <Route path='/Login' element={<Login/>}></Route>
+          <Route path='/Home' element={<Home/>}></Route>
+          <Route path='/Contact'></Route>
+          <Route path='/About'></Route>
+          <Route path='/LogIn' element={<Login/>}></Route>
           <Route path='/SignUp' element={<SignUp/>}></Route>
         </Routes>
-      <HeroSection/>
       <Footer />
       
     </>
