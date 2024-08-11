@@ -31,6 +31,7 @@ ul li a{
 .searchBar{
     height: 40px;
     width: 250px;
+    padding: 10px;
 }
 
 .icon{
