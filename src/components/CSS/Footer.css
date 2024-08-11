@@ -7,7 +7,7 @@
 .footer{
     background-color: black;
     display: flex;
-    color: aliceblue;
+    color: rgb(114, 117, 119);
     justify-content: space-around;
     padding-top: 40px;
     line-height: 30px;
@@ -19,7 +19,7 @@
     display: flex;
     margin-top: -40px;
     justify-content: center;
-    color: aliceblue;
+    color: rgb(114, 117, 119);
 }
 
 .email{
@@ -27,4 +27,25 @@
     height: 40px;
     width: 200px;
     border-radius: 5px;
+    padding: 10px;
+}
+
+.adr{
+    display: flex;
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 100px;
+}
+
+.ios{
+    margin-left: 20px;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
 }
