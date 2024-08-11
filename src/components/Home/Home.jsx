@@ -1,10 +1,11 @@
 import React from 'react'
 import HomeMenu from './HomeMenu'
+import HeroSection from '../HeroSection/HeroSection'
 
 function Home() {
   return (
     <div>
-        <HomeMenu></HomeMenu>
+        <HeroSection></HeroSection>
     </div>
   )
 }
