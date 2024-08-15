@@ -1,8 +1,12 @@
 import React from 'react'
 import '../CSS/NavBar.css'
+import {useContext} from 'react'
+import UserStore from '../userContex.js';
 
 function NavBar() {
-  return (
+
+    const userContext = useContext(UserStore);
+    return (
     <>
         <div className='navBar'>
             <h2 className='left'>Exclusive</h2>
@@ -10,8 +14,15 @@ function NavBar() {
                 <li><a href="/Home">Home</a></li>
                 <li><a href="/Contact"> Contact</a></li>
                 <li><a href="/About"> About</a></li>
-                <li><a href="/SignUp"> Sign up</a></li>
-                <li><a href="/LogIn">Log in</a></li>
+                {
+                  !userContext.isLoggedIn && <li><a href="/SignUp"> Sign up</a></li>
+                }
+                {
+                  !userContext.isLoggedIn && <li><a href="/LogIn">Log in</a></li>
+                }
+                {
+                  userContext.isLoggedIn && <li><a href="/Profile"></a></li>
+                }
             </ul>
             <ul className='rightMenu'>
                 <input type="text" className='searchBar' placeholder='What are you looking for'/>
