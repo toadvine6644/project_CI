@@ -1,0 +1,71 @@
+.contactContainer{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+
+.leftContact{
+    width: 350px;
+    padding: 20px;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+
+.rightContact{
+    margin-left: 40px;
+    width: 1000px;
+    padding: 20px;
+    height: 400px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+
+.upperInput{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.input1{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(206, 209, 211);
+}
+
+.bottomInput{
+    padding-top: 40px;
+}
+
+.input2{
+    width: 960px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(206, 209, 211);
+}
+
+.input2::placeholder{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.sendMess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 760px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    background-color: red;
+}
+
