@@ -7,11 +7,15 @@ import SignUp from './components/SignUp/SignUp';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import {Routes, Route} from 'react-router-dom';
+import UserStore from './components/userContex';
+import { useState } from 'react';
 
 function App() {
+  const [isLoggedIn, setIsloggedIn] = useState(false);
   return (
     <>
     {/* code xong  */}
+    <UserStore.Provider value={{ isLoggedIn, setIsloggedIn }}>
       <Header />
       <NavBar />
         <Routes>
@@ -23,7 +27,7 @@ function App() {
           <Route path='/SignUp' element={<SignUp/>}></Route>
         </Routes>
       <Footer />
-      
+      </UserStore.Provider>
     </>
   );
 }
