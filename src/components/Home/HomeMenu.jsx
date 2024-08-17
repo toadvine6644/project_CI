@@ -9,7 +9,7 @@ function HomeMenu() {
       {
         data.map((item, index) => {
           return(
-            <MenuComps name={item.name} ></MenuComps>
+            <MenuComps name={item.name} link={item.link}></MenuComps>
           )
         })
       }
