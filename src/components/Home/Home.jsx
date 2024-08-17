@@ -1,15 +1,15 @@
-import React from 'react'
-import Timer from './Timer'
-import HeroSection from '../HeroSection/HeroSection'
-
+import React from "react";
+import Timer from "./Timer";
+import HeroSection from "./HeroSection";
+import FlashSalesCard from "./FlashSalesCard";
 
 function Home() {
   return (
     <div>
-        <HeroSection></HeroSection>
-        <Timer></Timer>
+      <HeroSection />
+      <Timer />
     </div>
-  )
+  );
 }
 
-export default Home
+export default Home;
