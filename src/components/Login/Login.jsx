@@ -5,7 +5,8 @@ import config from '../../config';
 import Loader from '../Loader'
 import Modal from '../Modal/Modal';
 import { useNavigate } from "react-router-dom";
-
+import {useContext} from 'react'
+import UserStore from '../userContex';
 
 function Login() {
     const [modal, setModal] = useState(false);
@@ -16,6 +17,7 @@ function Login() {
     const [showLoader, setShowLoader] = useState(false);
     const [showDialog, setShowDialog] = useState(false);
     const [dialogMessage, setDialogMessage] = useState('');
+    const userContext = useContext(UserStore);
     const getAllUser = async () => {
         setShowLoader(true);
         let res = await fetch(config.endpoint + '/user');
@@ -34,6 +36,7 @@ function Login() {
         if (existsUsername) {
             let checkPassword = existsUsername.password == password;
             if (checkPassword) {
+                userContext.setIsloggedIn(true);
                 navigate("/Home");
             } else {
                 setDialogMessage('Incorrect Username or Password');
@@ -57,7 +60,7 @@ function Login() {
                 </div>
                 
                 <div className='login-section'>
-                    <input onChange={(event) => {setUsername(event.target.value)}} type="email" name="email" id="e-mail" value={username} placeholder='Email or Phone Number'/>
+                    <input onChange={(event) => {setUsername(event.target.value)}} type="email" name="email" id="e-mail" value={username} placeholder='Email or Username'/>
                     <input onChange={(event) => {setPassword(event.target.value)}} type="password" name="password" value={password} id="password" placeholder='Password'/>
                 </div>
 

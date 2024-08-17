@@ -55,3 +55,7 @@ ul input {
 .left{
     flex: .3 !important;
 }
+
+.userProfile{
+    cursor: pointer;
+}
