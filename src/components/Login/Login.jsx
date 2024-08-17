@@ -60,7 +60,7 @@ function Login() {
                 </div>
                 
                 <div className='login-section'>
-                    <input onChange={(event) => {setUsername(event.target.value)}} type="email" name="email" id="e-mail" value={username} placeholder='Email or Phone Number'/>
+                    <input onChange={(event) => {setUsername(event.target.value)}} type="email" name="email" id="e-mail" value={username} placeholder='Email or Username'/>
                     <input onChange={(event) => {setPassword(event.target.value)}} type="password" name="password" value={password} id="password" placeholder='Password'/>
                 </div>
 

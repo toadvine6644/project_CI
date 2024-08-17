@@ -1,0 +1,23 @@
+.dropDownContainer ul li{
+    display: block !important;
+    margin-right: 30px;
+    padding: 10px;
+}
+
+.dropDownMenu{
+    padding-top: 10px;
+}
+
+.dropDownContainer{
+    position: absolute;
+    display: flex;
+    top: 10rem;
+    right: 2rem;
+    background-color: rgb(163, 159, 159);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropDownContainer ul li a{
+    color: aliceblue;
+}
