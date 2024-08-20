@@ -9,7 +9,7 @@ function NewArrive() {
           <img
             loading="lazy"
             src="https://cdn.builder.io/api/v1/image/assets/TEMP/257c68e85d4ec211145a399b858c738793ae6303cc07c44213626b752e7a758b?placeholderIfAbsent=true&apiKey=1faa11c93006472a99a85db5d25b0d60"
-            class="product-image"
+            class="banner-image"
             alt="PlayStation 5 console"
           />
           <div class="product-info">
