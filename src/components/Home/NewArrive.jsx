@@ -31,7 +31,7 @@ function NewArrive() {
             <img
               loading="lazy"
               src="https://cdn.builder.io/api/v1/image/assets/TEMP/1b674d8f28601fdf2204e3778d077b479839f481c73ef779cd6a3e8ad34a517e?placeholderIfAbsent=true&apiKey=1faa11c93006472a99a85db5d25b0d60"
-              class="product-image"
+              class="banner-image"
               alt="Women's fashion collection"
             />
             <div class="collection-info">
