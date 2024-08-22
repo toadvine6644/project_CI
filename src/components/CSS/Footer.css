@@ -27,12 +27,13 @@
 .adr{
     display: flex;
     position: absolute;
-    margin-top: -90px;
+    margin-top: -85px;
     margin-left: 100px;
 }
 
 .ios{
     margin-left: 20px;
+    margin-top: 45px;
 }
 
 .icons{

@@ -23,9 +23,8 @@
     color: white;
 }
 
-a{
+a.headerLink{
     color: aliceblue;
-    text-decoration: none;
 }
 
 .language{

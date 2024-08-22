@@ -2,8 +2,15 @@ import React, { useState } from 'react'
 import '../CSS/Contact.css'
 import contactIcon1 from '../Assets/Images/contacticon1.svg'
 import contactIcon2 from '../Assets/Images/contacticon2.svg'
+import Modal from '../Modal/Modal'
 
 function Contact() {
+
+  const closeDialog = () => {
+    setShowDialog(false);
+  }  
+  const [showDialog, setShowDialog] = useState(false);
+  const [dialogMessage, setDialogMessage] = useState('');
 
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -11,13 +18,16 @@ function Contact() {
 
   const handleSubmit = () => {
     if (name && email && phone) {
-      alert('Thanks you for reaching out to our Customer Support! We will contact you via emal within 24 hours. You can also contact us directly through the following number: +8801611112222')
+      setDialogMessage('Thank you for your feedback. We will contact you within 24 hours via email.');
+      setShowDialog(true);
     } else {
-      alert('The information is invalid! Please correct and Submit again.')
+      setDialogMessage('Please fill all necessary information');
+      setShowDialog(true);
     }
   };
 
   return (
+    <>
     <div className='contactContainer'>
             <div className='leftContact'>
                 
@@ -42,6 +52,10 @@ function Contact() {
               <button onClick={handleSubmit} className='sendMess'>Send Message</button>
             </div>
     </div>
+    {
+      showDialog && <Modal closeDialog={closeDialog} dialogMessage={dialogMessage}></Modal>
+    }
+    </>
   )
 }
 
