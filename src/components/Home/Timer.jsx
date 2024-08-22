@@ -67,14 +67,18 @@ function Timer() {
   };
 
   return (
-    <div className="saleTime">
+    <div className="container saleTime">
       <div className="whatsNew">
         <div className="redBar"></div>
         <h5 className="newsContext">Today's</h5>
       </div>
-      <div className="timerInfo">Days Hours Minutes Seconds</div>
+
       <h1 className="timer">
-        Flash Sales: <div className="clock">{timer}</div>
+        Flash Sales:
+        <div className="count-down">
+          <div className="clock">{timer}</div>
+          <div className="timerInfo">Days Hours Minutes Seconds</div>
+        </div>
       </h1>
       <FlashSales />
     </div>

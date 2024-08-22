@@ -7,6 +7,22 @@
     color: aliceblue;
 }
 
+.header .sale {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sale-content {
+    display: flex;
+    align-items: center;
+}
+
+.shop-btn {
+    margin-left: 20px;
+
+    color: white;
+}
+
 a{
     color: aliceblue;
     text-decoration: none;
@@ -15,6 +31,4 @@ a{
 .language{
     display: flex;
     color: aliceblue;
-    margin-left: 1500px;
-    margin-top: -35px;
 }

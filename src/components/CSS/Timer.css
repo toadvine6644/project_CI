@@ -1,19 +1,12 @@
-.saleTime{
-    padding: 80px 100px;
-
-}
-
 .timerInfo{
-    padding-left: 310px;
-    word-spacing: 20px;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
 }
 
 .timer{
     display: flex;
-}
-
-.clock{
-    padding-left: 100px;
 }
 
 .whatsNew{

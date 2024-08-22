@@ -9,7 +9,7 @@ import catIcon6 from "../Assets/Images/categories-img/Category-SmartWatch.svg";
 
 function Categories() {
   return (
-    <div class="categories-section">
+    <div class="container categories-section">
       <header class="categories-header">
         <div class="categories-title-wrapper">
           <div class="categories-label">

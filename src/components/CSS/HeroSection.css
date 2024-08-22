@@ -1,28 +1,17 @@
-.hero-section-main-container {
-    display: flex;
-    justify-content: center;
-}
-
 .hero-section-main {
-    margin-top: 50px;
     display: flex;
-    width: 88%;
-    justify-content: center;
-    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
 }
 
-.filterDiv {
-    height: 50vh;
-    width: 40%;
+.filtersDiv {
     border-right: 1px solid black;
-    display: flex;
-    position: absolute;
+    width: 20%;
 }
 
 .sliderDiv {
-    height: 100%;
-    width: 89%;
-    padding-left: 100px;
+    width: 80%;
+    padding-left: 30px;
 }
 
 .carousel-item{

@@ -3,10 +3,16 @@
     text-align: center;
 }
 
+.saleTime {
+    margin-bottom: 100px;
+}
+
 .timer {
     font-size: 24px;
     margin: 20px 0;
     font-weight: bold;
+    display: flex;
+    gap: 80px;
 }
 
 .product-list {

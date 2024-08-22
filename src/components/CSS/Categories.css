@@ -1,7 +1,7 @@
 .categories-section { 
     display: flex; 
     flex-direction: column; 
-    padding: 0 100px; 
+    margin-bottom: 100px;
 }
 
 .categories-header { 

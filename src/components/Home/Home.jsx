@@ -1,9 +1,9 @@
 import React from "react";
-import Timer from "./Timer";
 import HeroSection from "./HeroSection";
 import NewArrive from "./NewArrive";
 import HomeBanner from "./HomeBanner";
 import Categories from "./Categories";
+import Timer from "./Timer";
 
 function Home() {
   return (
@@ -11,6 +11,7 @@ function Home() {
       <HeroSection />
       <Timer />
       <Categories />
+      <Timer />
       <HomeBanner />
       <NewArrive />
     </div>

@@ -3,7 +3,7 @@ import "../CSS/NewArrive.css";
 
 function NewArrive() {
   return (
-    <div class="product-showcase">
+    <div class="container product-showcase">
       <article class="playstation-card">
         <div class="playstation-content">
           <img
@@ -43,12 +43,10 @@ function NewArrive() {
               </div>
               <div class="shop-now-div" tabindex="0">
                 <span>Shop Now</span>
-          
               </div>
             </div>
           </div>
         </div>
-      
       </article>
     </div>
   );

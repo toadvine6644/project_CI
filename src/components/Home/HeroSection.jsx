@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section-main-container">
+    <div className="container hero-section-main-container">
       <div className="hero-section-main">
         <div className="filtersDiv">
           <HomeMenu></HomeMenu>
