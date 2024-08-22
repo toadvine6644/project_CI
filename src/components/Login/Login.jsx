@@ -37,6 +37,7 @@ function Login() {
             let checkPassword = existsUsername.password == password;
             if (checkPassword) {
                 userContext.setIsloggedIn(true);
+                window.localStorage.setItem('isLoggedIn', true);
                 navigate("/Home");
             } else {
                 setDialogMessage('Incorrect Username or Password');

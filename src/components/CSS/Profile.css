@@ -1,0 +1,85 @@
+.accountMenu li{
+    display: block !important;
+}
+
+.profileMenu{
+    display: flex;
+}
+
+.menuLeft{
+    padding-left: 120px;
+    margin-top: 200px;
+    height: 650px;
+}
+
+.accountInfo{
+    padding-left: 100px;
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    padding-top: 50px;
+    width: 900px;
+    height: 650px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+}
+
+.upperProf{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.upperProf input{
+    width: 350px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(206, 209, 211);
+}
+
+.bottomProf{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+}
+
+.bottomProf input{
+    width: 350px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(206, 209, 211);
+}
+
+.changePass input{
+    width: 750px;
+    margin-top: 20px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(206, 209, 211);
+}
+
+.cancel{
+    margin-left: 450px;
+    margin-top: 20px;
+    height: 60px;
+    width: 100px;
+    border: none;
+    background-color: white;
+}
+
+.saveChange{
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    background-color: red;
+    color: white;
+}

@@ -36,7 +36,7 @@ function NavBar() {
             </ul>
         </div>
         {
-          openProfile &&<ProfileDropDown></ProfileDropDown>
+          userContext.isLoggedIn && openProfile &&<ProfileDropDown></ProfileDropDown>
         }
     </>
   )

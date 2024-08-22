@@ -7,9 +7,8 @@
     color: aliceblue;
 }
 
-a{
+a.headerLink{
     color: aliceblue;
-    text-decoration: none;
 }
 
 .language{
