@@ -1,6 +1,6 @@
 .saleTime{
-    padding-top: 200px;
-    padding-left: 120px;
+    padding: 80px 100px;
+
 }
 
 .timerInfo{
@@ -24,11 +24,11 @@
 .redBar{
     width: 20px;
     height: 40px;
-    background-color: red;
+    background-color: #DB4444;
     border-radius: 5px;
 }
 
 .newsContext{
     padding-left: 20px;
-    color: red;
+    color: #DB4444;
 }
